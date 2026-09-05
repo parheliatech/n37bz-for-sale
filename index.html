@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>N37BZ &mdash; 1980s Rutan VariEze for Sale | Tucson, AZ</title>
+<meta name="description" content="Experimental Rutan VariEze N37BZ for sale. O-200 with C-85 pistons, Dynon EFIS, uAvionix ADS-B in/out, 756 TTAF, ~30 hrs SMOH. Based Tucson, AZ (KRYN). $32,000.">
+<style>
+  :root{
+    --bg:#0b0d10;
+    --bg-alt:#12151a;
+    --card:#171b21;
+    --border:#262b33;
+    --text:#e7e9ec;
+    --text-dim:#a3aab5;
+    --accent:#e8a33d;
+    --accent-dim:#8a6528;
+    --good:#5fb87a;
+    --warn:#d98c3a;
+    --maxw:1080px;
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    margin:0;
+    background:var(--bg);
+    color:var(--text);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    line-height:1.55;
+  }
+  img{max-width:100%;display:block;}
+  a{color:var(--accent);}
+  .wrap{max-width:var(--maxw);margin:0 auto;padding:0 20px;}
+
+  header.hero{
+    position:relative;
+    background:#000;
+  }
+  header.hero img{
+    width:100%;
+    max-height:78vh;
+    object-fit:cover;
+    opacity:0.88;
+  }
+  .hero-overlay{
+    position:absolute;
+    left:0;right:0;bottom:0;
+    background:linear-gradient(180deg, rgba(11,13,16,0) 0%, rgba(11,13,16,0.92) 85%);
+    padding:60px 0 26px;
+  }
+  .hero-inner{max-width:var(--maxw);margin:0 auto;padding:0 20px;}
+  .tail-number{
+    display:inline-block;
+    font-size:0.85rem;
+    letter-spacing:0.12em;
+    color:var(--accent);
+    border:1px solid var(--accent-dim);
+    padding:3px 10px;
+    border-radius:20px;
+    margin-bottom:14px;
+    text-transform:uppercase;
+  }
+  h1{
+    font-size:clamp(1.8rem, 4vw, 2.8rem);
+    margin:0 0 6px;
+    font-weight:700;
+  }
+  .subtitle{
+    color:var(--text-dim);
+    font-size:1.05rem;
+    margin:0 0 20px;
+  }
+  .price-row{
+    display:flex;
+    flex-wrap:wrap;
+    gap:14px;
+    align-items:center;
+  }
+  .price{
+    font-size:2rem;
+    font-weight:800;
+    color:var(--accent);
+  }
+  .loc{
+    color:var(--text-dim);
+    font-size:0.95rem;
+  }
+
+  nav.subnav{
+    position:sticky;
+    top:0;
+    z-index:10;
+    background:rgba(11,13,16,0.94);
+    backdrop-filter:blur(6px);
+    border-bottom:1px solid var(--border);
+  }
+  nav.subnav .wrap{
+    display:flex;
+    gap:22px;
+    overflow-x:auto;
+    padding:12px 20px;
+    scrollbar-width:none;
+  }
+  nav.subnav .wrap::-webkit-scrollbar{display:none;}
+  nav.subnav a{
+    color:var(--text-dim);
+    text-decoration:none;
+    font-size:0.9rem;
+    white-space:nowrap;
+  }
+  nav.subnav a:hover{color:var(--text);}
+
+  main{padding:48px 0 80px;}
+  section{margin-bottom:64px;}
+  section h2{
+    font-size:1.5rem;
+    margin:0 0 18px;
+    padding-bottom:10px;
+    border-bottom:1px solid var(--border);
+  }
+  p{color:var(--text-dim);}
+  p.lead{color:var(--text);font-size:1.05rem;}
+
+  .specs-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:1px;
+    background:var(--border);
+    border:1px solid var(--border);
+    border-radius:10px;
+    overflow:hidden;
+  }
+  .spec{
+    background:var(--card);
+    padding:16px 18px;
+  }
+  .spec .k{
+    display:block;
+    font-size:0.78rem;
+    text-transform:uppercase;
+    letter-spacing:0.06em;
+    color:var(--text-dim);
+    margin-bottom:4px;
+  }
+  .spec .v{
+    font-size:1.05rem;
+    font-weight:600;
+  }
+  .placeholder{
+    color:var(--warn);
+    font-weight:600;
+    font-style:italic;
+  }
+
+  .disclosure{
+    background:var(--card);
+    border:1px solid var(--accent-dim);
+    border-left:4px solid var(--accent);
+    border-radius:8px;
+    padding:18px 20px;
+  }
+  .disclosure h3{margin:0 0 8px;font-size:1.05rem;color:var(--accent);}
+  .disclosure p{margin:0;color:var(--text);}
+
+  .gallery{
+    display:grid;
+    grid-template-columns:repeat(auto-fill,minmax(260px,1fr));
+    gap:12px;
+  }
+  .gallery figure{
+    margin:0;
+    border-radius:8px;
+    overflow:hidden;
+    border:1px solid var(--border);
+    background:var(--bg-alt);
+  }
+  .gallery img{
+    width:100%;
+    height:190px;
+    object-fit:cover;
+    cursor:zoom-in;
+    transition:transform .2s ease;
+  }
+  .gallery img:hover{transform:scale(1.03);}
+
+  .video-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:18px;
+  }
+  .video-wrap{
+    position:relative;
+    padding-bottom:56.25%;
+    height:0;
+    border-radius:8px;
+    overflow:hidden;
+    border:1px solid var(--border);
+  }
+  .video-wrap iframe{
+    position:absolute;top:0;left:0;width:100%;height:100%;border:0;
+  }
+
+  .docs-list{
+    display:flex;
+    flex-wrap:wrap;
+    gap:14px;
+  }
+  .doc-card{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    background:var(--card);
+    border:1px solid var(--border);
+    border-radius:8px;
+    padding:14px 18px;
+    text-decoration:none;
+    color:var(--text);
+    flex:1 1 260px;
+  }
+  .doc-card:hover{border-color:var(--accent-dim);}
+  .doc-card .icon{font-size:1.6rem;}
+  .doc-card .meta{display:flex;flex-direction:column;}
+  .doc-card .meta .name{font-weight:600;}
+  .doc-card .meta .hint{font-size:0.82rem;color:var(--text-dim);}
+
+  .story p{color:var(--text);}
+
+  footer{
+    border-top:1px solid var(--border);
+    padding:32px 0 48px;
+    color:var(--text-dim);
+    font-size:0.88rem;
+  }
+  footer a{color:var(--text-dim);text-decoration:underline;}
+
+  /* lightbox */
+  .lightbox{
+    display:none;
+    position:fixed;inset:0;
+    background:rgba(0,0,0,0.92);
+    z-index:100;
+    align-items:center;
+    justify-content:center;
+    padding:24px;
+  }
+  .lightbox.open{display:flex;}
+  .lightbox img{max-height:92vh;max-width:92vw;border-radius:6px;}
+  .lightbox .close{
+    position:absolute;top:18px;right:24px;
+    color:#fff;font-size:2rem;cursor:pointer;
+    line-height:1;
+  }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <img src="images/photo-01.jpg" alt="N37BZ Rutan VariEze parked on the ramp at sunset">
+  <div class="hero-overlay">
+    <div class="hero-inner">
+      <span class="tail-number">N37BZ &middot; Experimental Amateur-Built</span>
+      <h1>Rutan VariEze &mdash; N37BZ</h1>
+      <p class="subtitle">O-200 (high-compression C-85 pistons) &middot; Dynon EFIS &middot; uAvionix ADS-B In/Out &middot; Based KRYN, Tucson AZ</p>
+      <div class="price-row">
+        <span class="price">$32,000</span>
+        <span class="loc">Tucson, Arizona (KRYN)</span>
+      </div>
+    </div>
+  </div>
+</header>
+
+<nav class="subnav">
+  <div class="wrap">
+    <a href="#story">The Story</a>
+    <a href="#specs">Specs</a>
+    <a href="#disclosure">Disclosures</a>
+    <a href="#included">Included</a>
+    <a href="#photos">Photos</a>
+    <a href="#videos">Videos</a>
+    <a href="#logbooks">Logbooks</a>
+  </div>
+</nav>
+
+<main class="wrap">
+
+  <section id="story" class="story">
+    <h2>The Story</h2>
+    <p class="lead">I bought this VariEze back in 2013 and spent a couple of years bringing it back to flying condition, working under the guidance of an A&amp;P/IA the whole way through.</p>
+    <p>Since then I've logged several hundred happy hours in it, bombing around the country solo &mdash; it's a genuinely fun, efficient, and honest little airplane to fly. My situation has changed, though: I'm no longer a single guy, and the VariEze has been spending a lot more time in the hangar than in the air. It deserves an owner who will actually fly it.</p>
+    <p>We just finished a condition inspection, and it's time to let her go to a good home. Everything below is described as accurately as I can &mdash; ask questions, I'll answer them straight. If it helps, I'd also be happy to fly her to the new owner.</p>
+  </section>
+
+  <section id="specs">
+    <h2>Specifications</h2>
+    <div class="specs-grid">
+      <div class="spec"><span class="k">Aircraft</span><span class="v">Rutan VariEze (Experimental / Amateur-Built)</span></div>
+      <div class="spec"><span class="k">Registration</span><span class="v">N37BZ</span></div>
+      <div class="spec"><span class="k">Engine</span><span class="v">Continental O-200, fitted with high-compression C-85 pistons in overhauled cylinders</span></div>
+      <div class="spec"><span class="k">Total Time Airframe (TTAF)</span><span class="v">756 hours</span></div>
+      <div class="spec"><span class="k">Time Since Major Overhaul (TSMOH)</span><span class="v">~30 hours since high-compression C-85 piston/cylinder installation</span></div>
+      <div class="spec"><span class="k">Primary EFIS</span><span class="v">Dynon EFIS</span></div>
+      <div class="spec"><span class="k">ADS-B</span><span class="v">uAvionix, In &amp; Out</span></div>
+      <div class="spec"><span class="k">Com Radio</span><span class="v">Terra TX-760D</span></div>
+      <div class="spec"><span class="k">Transponder</span><span class="v">Terra TRT-250D</span></div>
+      <div class="spec"><span class="k">Nav/Com</span><span class="v">Narco Escort II, with glideslope</span></div>
+      <div class="spec"><span class="k">Last Condition Inspection</span><span class="v">May 16, 2026</span></div>
+      <div class="spec"><span class="k">Based At</span><span class="v">KRYN &mdash; Ryan Airfield, Tucson, AZ</span></div>
+      <div class="spec"><span class="k">Asking Price</span><span class="v">$32,000</span></div>
+    </div>
+  </section>
+
+  <section id="disclosure">
+    <h2>Full Disclosure</h2>
+    <div class="disclosure">
+      <h3>Cylinder paperwork</h3>
+      <p>When the C-85 pistons were installed, overhauled cylinders were used. The paperwork documenting that overhaul was lost, so the inspecting IA logged them as "serviceable" rather than "overhauled" since it couldn't be substantiated on paper.</p>
+    </div>
+  </section>
+
+  <section id="included">
+    <h2>What's Included</h2>
+    <div class="specs-grid">
+      <div class="spec"><span class="k">Extra</span><span class="v">Spare propeller</span></div>
+      <div class="spec"><span class="k">Extra</span><span class="v">New wheelpants (never installed)</span></div>
+      <div class="spec"><span class="k">Extra</span><span class="v">Canopy cover</span></div>
+    </div>
+  </section>
+
+  <section id="photos">
+    <h2>Photos</h2>
+    <div class="gallery" id="gallery"></div>
+  </section>
+
+  <section id="videos">
+    <h2>Videos</h2>
+    <div class="video-grid">
+      <div class="video-wrap"><iframe src="https://www.youtube.com/embed/ptRq8yVPIjU" title="N37BZ video 1" allowfullscreen loading="lazy"></iframe></div>
+      <div class="video-wrap"><iframe src="https://www.youtube.com/embed/1TDxeE0I0R4" title="N37BZ video 2" allowfullscreen loading="lazy"></iframe></div>
+      <div class="video-wrap"><iframe src="https://www.youtube.com/embed/OaHlBsr2UHs" title="N37BZ video 3" allowfullscreen loading="lazy"></iframe></div>
+      <div class="video-wrap"><iframe src="https://www.youtube.com/embed/4wnMRHtdVkw" title="N37BZ video 4" allowfullscreen loading="lazy"></iframe></div>
+    </div>
+  </section>
+
+  <section id="logbooks">
+    <h2>Logbooks</h2>
+    <p>Complete scanned logbooks are linked below (PDF, opens in a new tab).</p>
+    <div class="docs-list">
+      <a class="doc-card" href="logbooks/airframe-logbook.pdf" target="_blank" rel="noopener">
+        <span class="icon">&#128196;</span>
+        <span class="meta"><span class="name">Airframe Logbook</span><span class="hint">PDF</span></span>
+      </a>
+      <a class="doc-card" href="logbooks/engine-logbook.pdf" target="_blank" rel="noopener">
+        <span class="icon">&#128196;</span>
+        <span class="meta"><span class="name">Engine Logbook</span><span class="hint">PDF</span></span>
+      </a>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <p>N37BZ is offered for sale as an Experimental Amateur-Built aircraft, sold as-is. All information above is believed accurate but not warranted; buyers should perform their own pre-purchase inspection. Reach out through the platform where you found this link (Facebook, Barnstormers, etc.) for questions or to arrange a viewing.</p>
+  </div>
+</footer>
+
+<div class="lightbox" id="lightbox">
+  <span class="close" id="lightbox-close">&times;</span>
+  <img id="lightbox-img" src="" alt="">
+</div>
+
+<script>
+  var count = 24;
+  var gallery = document.getElementById('gallery');
+  for (var i = 1; i <= count; i++) {
+    var n = (i < 10 ? '0' + i : '' + i);
+    var fig = document.createElement('figure');
+    var img = document.createElement('img');
+    img.src = 'images/photo-' + n + '.jpg';
+    img.loading = 'lazy';
+    img.alt = 'N37BZ photo ' + n;
+    fig.appendChild(img);
+    gallery.appendChild(fig);
+  }
+
+  var lightbox = document.getElementById('lightbox');
+  var lightboxImg = document.getElementById('lightbox-img');
+  gallery.addEventListener('click', function(e){
+    if (e.target.tagName === 'IMG') {
+      lightboxImg.src = e.target.src;
+      lightbox.classList.add('open');
+    }
+  });
+  document.getElementById('lightbox-close').addEventListener('click', function(){
+    lightbox.classList.remove('open');
+  });
+  lightbox.addEventListener('click', function(e){
+    if (e.target === lightbox) lightbox.classList.remove('open');
+  });
+</script>
+
+</body>
+</html>
