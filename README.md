@@ -23,33 +23,43 @@ plain HTML/CSS/JS, easy to hand-edit.
 
 ## Publish it to GitHub Pages
 
-Open a terminal **on your own computer**, `cd` into this folder, then:
+### Step 1 — Create the (empty) repository on github.com
+1. Go to https://github.com/new (you're logged in as parheliatech).
+2. Repository name: `n37bz-for-sale`
+3. Set it to **Public** (required for free GitHub Pages).
+4. Leave every checkbox unchecked (no README, no .gitignore, no license) —
+   this folder already has its own files and adding any of those on
+   GitHub's side would conflict with the push in Step 2.
+5. Click **Create repository**. You'll land on a mostly-empty page for
+   the new repo — you don't need to read or copy anything from it,
+   just leave that browser tab open and move to Step 2.
+
+### Step 2 — Push this folder to it
+Open a terminal **on your own computer**, `cd` into this exact folder
+(the one this README is in), then run these commands exactly as written
+(the URL is specific to the repo you just made):
 
 ```bash
 git init
 git add .
 git commit -m "Initial N37BZ for-sale site"
-```
-
-Then, on github.com (you're logged in as parheliatech):
-1. Click **New repository**. Suggested name: `n37bz-for-sale`
-   (public, so GitHub Pages can serve it for free; don't initialize it
-   with a README/license — this folder already has one).
-2. Copy the commands GitHub shows under "…or push an existing repository
-   from the command line", e.g.:
-
-```bash
 git remote add origin https://github.com/parheliatech/n37bz-for-sale.git
 git branch -M main
 git push -u origin main
 ```
 
-3. In the new repo on GitHub: **Settings → Pages** → under "Build and
-   deployment", set **Source** to "Deploy from a branch", branch `main`,
-   folder `/ (root)`, then **Save**.
-4. GitHub will give you a live URL, typically:
+If it asks you to sign in, follow its prompts (browser login or a
+personal access token as the password) — that's GitHub authenticating
+you, not something to worry about.
+
+### Step 3 — Turn on Pages
+Back in the browser tab from Step 1 (or navigate to
+`https://github.com/parheliatech/n37bz-for-sale/settings/pages`):
+1. Under **Build and deployment → Source**, choose **Deploy from a branch**.
+2. Under **Branch**, choose `main` and folder `/ (root)`, then **Save**.
+3. Wait a minute or two, then refresh that Pages settings page — it will
+   show your live URL at the top, which will be:
    `https://parheliatech.github.io/n37bz-for-sale/`
-   (takes a minute or two to go live after the first push).
 
 That URL is what you link to from Facebook, Barnstormers, etc.
 
