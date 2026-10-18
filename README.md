@@ -12,7 +12,7 @@ No placeholders remain — the page is ready to publish as-is. It currently
 includes: price $32,000, Tucson/KRYN, TTAF 756 hrs / ~30 hrs since the
 high-compression C-85 piston & overhauled-cylinder installation, Dynon
 EFIS, uAvionix ADS-B in/out, Terra TX-760D com, Terra TRT-250D transponder,
-Narco Escort II nav/com w/ glideslope, last condition inspection May 16
+Narco Escort II nav/com w/ VOR, last condition inspection May 16
 2026, the cylinder-paperwork disclosure, a "What's Included" section
 (spare prop, new never-installed wheelpants, canopy cover), and a note
 that you're willing to fly it to the new owner.
