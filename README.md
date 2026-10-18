@@ -9,7 +9,7 @@ This folder is a ready-to-publish GitHub Pages site for selling N37BZ.
 
 ## Current status
 No placeholders remain — the page is ready to publish as-is. It currently
-includes: price $32,000, Tucson/KRYN, TTAF 756 hrs / ~30 hrs since the
+includes: price $30,750, Tucson/KRYN, TTAF 756 hrs / ~30 hrs since the
 high-compression C-85 piston & overhauled-cylinder installation, Dynon
 EFIS, uAvionix ADS-B in/out, Terra TX-760D com, Terra TRT-250D transponder,
 Narco Escort II nav/com w/ VOR, last condition inspection May 16
